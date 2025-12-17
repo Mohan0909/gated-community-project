@@ -8,3 +8,6 @@ target/
 
 # Environment files
 .env
+
+# Ignore jar files
+*.jar
