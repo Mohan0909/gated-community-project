@@ -8,9 +8,11 @@
 		<!-- Database Connection Settings -->
 		<property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
 		<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/gated_community</property>
-<property name="hibernate.connection.username">root</property>
-<property name="hibernate.connection.password">Mohan@321</property>
-	
+		
+		<!-- NOTE: Replace YOUR_DB_USERNAME and YOUR_DB_PASSWORD with your local 
+			database credentials. Do NOT commit real credentials to GitHub. -->
+		<property name="hibernate.connection.username">YOUR_DB_USERNAME</property>
+		<property name="hibernate.connection.password">YOUR_DB_PASSWORD</property>
 
 
 		<!-- JDBC Connection Pool (use built-in for testing) -->
